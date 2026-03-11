@@ -1,4 +1,4 @@
-# portfolio
+# moodboard
 Autor: Troitino, Nicolas.
 
 En la practica podemos ver un moodboard que nos muestra: Mis gustos y pesonalidad, enlaces a mis trabajos y galeria de fotos, enlace a mi portfolio personal y mis hobbies
