@@ -1,0 +1,286 @@
+/* Variables globales de colores */
+:root {
+    --color-principal: #2c3e50;
+    --color-secundario: #3498db;
+    --color-fondo: #f4f4f4;
+    --color-blanco: #ffffff;
+}
+
+/* Reset básico de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    line-height: 1.6;
+     text-align: center;
+}
+
+/* Estilo del header */
+header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Menú de navegación en flex */
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+/* Espaciado de elementos del menú */
+nav ul li {
+    margin: 10px;
+}
+
+/* Estilo de enlaces */
+nav a {
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Efecto hover en enlaces */
+nav a:hover {
+    color: var(--color-secundario);
+}
+
+/* Espaciado general de secciones */
+section {
+    padding: 40px 20px;
+}
+
+/* Contenedor sobre mí en flex */
+.sobre-mi-contenido {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Imagen de perfil */
+.sobre-mi-contenido img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Contenedor formación en flex */
+.formacion-contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilo de cada artículo de formación */
+.formacion-contenedor article {
+    background-color: var(--color-blanco);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.formacion-contenedor :hover{ 
+    transform: scale(1.05)
+}
+   
+/* ============================
+   SECCIÓN EXPERIENCIA
+   ============================ */
+
+.experiencia {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+  
+}
+
+.experiencia h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+   text-align: center;
+}
+
+.exp-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.exp-list li {
+  background-color: var(--color-blanco);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+}
+
+.exp-list li:hover {
+  background-color: #e9e9e9;
+}
+
+.exp-list h3 {
+  color: var(--color-principal);
+}
+
+.exp-list p {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #333;
+}
+
+.exp-list span {
+  font-weight: bold;
+  color: var(--color-secundario);
+}
+    
+/* Contenedor de cards en flex */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Estilo individual de cada card */
+.card {
+    background-color: var(--color-blanco);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+/* Imagen dentro de la card */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Efecto hover en card */
+.card:hover {
+    transform: scale(1.05);
+}
+
+img {
+    display: flex;
+    width: 100px;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Enlaces del footer */
+footer a {
+    color: var(--color-secundario);
+    text-decoration: none;
+}
+        .skill {
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #007bff;
+            padding-bottom: 10px;
+        }
+
+        .skill-item {
+            display: inline-block;
+            width: 48%;
+            vertical-align: top;
+            margin-bottom: 15px;
+            padding-right: 10px;
+        }
+
+        .skill-item.full-width {
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .skill-item p {
+            margin: 0 0 5px 0;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .skill-bar {
+            display: block;
+            width: 100%;
+            height: 10px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .skill-bar span {
+            display: block;
+            height: 100%;
+            background-color: #007bff;
+            border-radius: 5px;
+            
+        }
+        .skill-lb {
+            width: 30%;
+        }
+
+        .skill-rd {
+            width: 70%;
+        }
+
+        .skill-sr {
+            width: 70%;
+        }
+
+        .skill-v {
+            width: 65%;
+        }
+
+        .skill-sb {
+            width: 70%;
+        }
+
+        .skill-hm {
+            width: 90%;
+        }
+
+        .skill-dt {
+            width: 70%;
+        }
+ 
+
+
+.habilidades-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.habilidade {
+  background-color: #e3f0ff;
+  color: #0050b3;
+  padding: 5px;
+  border-radius: 999px;
+  font-size: 15px;
+}
